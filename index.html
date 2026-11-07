@@ -67,15 +67,74 @@
       </section>
 
       <section class="pricing" id="cennik" aria-labelledby="pricing-title">
-        <p class="eyebrow">02 / Bez niespodzianek</p>
-        <h2 id="pricing-title">Cennik</h2>
-        <p>Sprawdź zakres prac przed wizytą — jeśli rower skrywa coś więcej, najpierw zadzwonimy.</p>
+        <div class="pricing__intro">
+          <p class="eyebrow">02 / Bez niespodzianek</p>
+          <h2 id="pricing-title">Cennik</h2>
+          <p>Sprawdź zakres prac przed wizytą. Jeśli rower skrywa coś więcej, najpierw zadzwonimy i ustalimy szczegóły.</p>
+          <p class="pricing__note">Ceny obejmują robociznę. Części dobieramy i wyceniamy przed montażem.</p>
+        </div>
+
+        <div class="price-sheet">
+          <table class="price-table">
+            <caption>Cennik orientacyjny · robocizna</caption>
+            <thead>
+              <tr>
+                <th scope="col">Usługa</th>
+                <th class="num" scope="col">Cena</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Przegląd miejski</td>
+                <td class="num">120 zł</td>
+              </tr>
+              <tr>
+                <td>Regulacja przerzutek</td>
+                <td class="num">80 zł</td>
+              </tr>
+              <tr>
+                <td>Serwis hamulców</td>
+                <td class="num">70 zł</td>
+              </tr>
+              <tr>
+                <td>Centrowanie koła</td>
+                <td class="num">od 60 zł</td>
+              </tr>
+              <tr>
+                <td>Wymiana dętki</td>
+                <td class="num">35 zł</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="price-sheet__footnote">Cena obejmuje montaż; koszt dętki ustalamy przed pracą.</p>
+        </div>
       </section>
     </main>
 
-    <footer class="site-footer" id="kontakt">
-      <p class="footer-brand">Szprycha <span>·</span> Bydgoszcz</p>
-      <p>Pracownia rowerowa, w której liczy się dobra jazda.</p>
+    <footer class="site-footer" id="kontakt" aria-labelledby="contact-title">
+      <div class="footer-heading">
+        <p class="eyebrow">03 / Wpadnij do pracowni</p>
+        <h2 id="contact-title">Do zobaczenia<br><span>na trasie.</span></h2>
+        <p>Przed przyjazdem daj znać — znajdziemy dobry termin na serwis.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <p class="contact-item__label">Gdzie</p>
+          <address>Bydgoszcz<br>Pracownia po wcześniejszym umówieniu</address>
+        </div>
+        <div class="contact-item">
+          <p class="contact-item__label">Zadzwoń</p>
+          <a href="tel:+48500100200">500 100 200</a>
+        </div>
+        <div class="contact-item">
+          <p class="contact-item__label">Napisz</p>
+          <a href="mailto:pracownia@szprycha.example">pracownia@szprycha.example</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-brand">Szprycha <span>·</span> Bydgoszcz</p>
+        <p>Mały serwis. Dużo dobrych kilometrów.</p>
+      </div>
     </footer>
   </body>
 </html>
